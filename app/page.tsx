@@ -39,7 +39,7 @@ export default function Home() {
 
       <p className="p">
         Kant Energy focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
-         The platform views energy as a foundational component of global AI adoption and a sector  
+         It views energy as a foundational component of global AI adoption and a sector  
           with the potential to provide long-duration cash flows across all market cycles.
       </p>
     </>
