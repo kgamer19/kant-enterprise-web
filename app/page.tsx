@@ -1,10 +1,47 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main style={{ padding: 24, fontFamily: "system-ui" }}>
-      <h1>Kant Enterprises</h1>
-      <p>Private investment vehicle focused on AI and renewable energy.</p>
-    </main>
+    <>
+      <h1 className="h1">
+    Kant Enterprises, SEA multi-strategy alternative investment vehicle
+      </h1>
+<br>
+
+</br>
+      <p className="p">
+        Kant Enterprises believes that AI and renewables will be the dominant driver of 
+        global market returns over the next decade. The landscape is expansive and diverse, encompassing companies in the 
+          technology and energy sectors.
+           The firm’s investment activities are organized across two primary thematic verticals:
+            Kant Technologies and Kant Energy
+      </p>
+      <br>
+      
+      </br>
+<h1 className="h1">
+  Kant Technologies
+</h1>
+      <p className="p">
+        Kant Technologies focuses on seed-stage and growth-stage investments. we take a 
+        rigorous approach to AI
+         analysis, pairing a macro view of the AI industry, deep 
+         understanding of the underlying AI technology, and fundamental individual 
+         company valuation. Kant Technologies seeks to capture the gains expected
+          from the global growth and broad adoption of AI
+      </p>
+
+      <br>
+      
+      </br>
+
+      <h1 className="h1">
+  Kant Energy
+</h1>
+
+      <p className="p">
+        Kant Energy focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
+         The platform views energy as a foundational component of global AI adoption and a sector  
+          with the potential to provide long-duration cash flows across all market cycles.
+      </p>
+    </>
   );
 }
