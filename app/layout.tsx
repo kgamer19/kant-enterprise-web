@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import Image from "next/image";
 
+
 export const metadata: Metadata = {
   title: "Kant Enterprises",
   description: "Kant Enterprises",
@@ -16,15 +17,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="header">
             <nav className="nav">
              <div className="brand">
-  <Link href="/" className="brandWrap" aria-label="Kant Enterprises">
+  <Link href="/" aria-label="Kant Enterprises">
     <Image
       src="/logo.png"
-      alt="Kant Enterprises logo"
-      width={40}
-      height={40}
+      alt="Kant Enterprises"
+      width={44}
+      height={44}
       priority
+      unoptimized
     />
-    <span className="brandText">Kant Enterprises</span>
   </Link>
 </div>
 
