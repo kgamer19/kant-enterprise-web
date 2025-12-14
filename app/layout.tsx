@@ -16,16 +16,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="wrap">
           <header className="header">
             <nav className="nav">
-             <div className="brand">
+           <div className="brand">
   <Link href="/" aria-label="Kant Enterprises">
-    <Image
-      src="/logo.png"
-      alt="Kant Enterprises"
-      width={44}
-      height={44}
-      priority
-      unoptimized
-    />
+    <span className="brandWrap">
+      <Image
+        src="/logo.png"
+        alt="Kant Enterprises"
+        width={44}
+        height={44}
+        unoptimized
+        priority
+      />
+      <span className="brandText">Kant Enterprises</span>
+    </span>
   </Link>
 </div>
 

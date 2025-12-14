@@ -52,10 +52,9 @@ a:hover { text-decoration: underline; }
   gap: 16px;
 }
 
-.brand a {
-  font-weight: 600;
-  color: var(--brand);
-  letter-spacing: 0.02em;
+.brand {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -144,9 +143,14 @@ a:hover { text-decoration: underline; }
 
 
 .brandWrap {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
+  line-height: 1;
+}
+
+.brandWrap img {
+  display: block;
 }
 
 .brandText {
@@ -155,4 +159,5 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand);
+  white-space: nowrap;
 }
