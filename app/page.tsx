@@ -8,9 +8,9 @@ export default function Home() {
 
 
       <p className="p">
-        Kant Enterprises believes that AI and renewables will be the dominant driver of 
-        global market returns over the next decade. The landscape is expansive and diverse, encompassing companies in the 
-          technology and energy sectors.
+        Kant Enterprises believes that AI and renewables will define 
+         alpha over the next decade.
+         We stand the intersection of computation, energy systems, and asset allocation, where academic culture meets market realities.
       </p>
 <hr className="rule" />
 
@@ -20,26 +20,24 @@ export default function Home() {
 </h1>
 </div>
       <p className="p">
-        Kant Technologies focuses on seed-stage and growth-stage investments. we take a 
+        Kant Technologies focuses on seed-stage and growth-stage investments. We take a 
         rigorous approach to AI
          analysis, pairing a macro view of the AI industry, deep 
-         understanding of the underlying AI technology, and individual 
-         company analysis.
+         understanding of the underlying AI technology, and individual company.
       </p>
 
     <hr className="rule" />
 
   <div className="hero">
       <h1 className="h1">
-  Kant Energy
+  Kant Energies
 </h1>
 </div>
 
 
       <p className="p">
         Kant Energy focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
-         We view energy as a foundational component of global AI adoption and a sector  
-          with the potential to provide long-run returns across all market cycles.
+         Our domain expertise demonstrates renewables a core component of global AI adoption and energy transition.
       </p>
     </>
   );
