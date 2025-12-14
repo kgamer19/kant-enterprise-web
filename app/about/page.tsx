@@ -3,22 +3,16 @@ export default function About() {
     <>
       <h1 className="h1">About</h1>
       <p className="p">
-        Kant Enterprises Co., Ltd. ("KE") is a Southeast Asian based private investment vehicle 
-        involved in the development of artificial intelligence ("AI")
-         technology and energy companies where AI may have a positive impact. 
-         KE formulates a macro picture of AI and renewables through rigorous research on 
-         technological developments and economic analysis. This perspective informs our
-          search to identify winners and impacted companies.
-
+        Kant Enterprises Co., Ltd. ("KE") was founded by Kant Tanyawong in December 2025. 
+        Mr. Tanyawong has a background in engineering, Mathematics and Finance. His BEng(Hons) projects 
+        was on neural networks, solar microgrid systems and self balancing bikes.
+        He previously worked for ($15bn+ AUM) MFC Asset Management before launching Kant Enterprises.
+       
 <br>
 </br>
 <br>
 </br>
       <p className="p">
-        KE was founded by Kant Tanyawong in 2025. 
-        Mr. Tanyawong a background in engineering, statistics and finance
-        He previously worked for MFC Asset Management ($15bn+ AUM) before launching Kant Enterprises.
-        His BEng(Hons) projects was on neural networks and solar microgrid systems
       </p>
       </p>
     </>
