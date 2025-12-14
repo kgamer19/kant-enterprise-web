@@ -4,9 +4,7 @@ export default function Home() {
       <h1 className="h1">
     Kant Enterprises, SEA multi-strategy alternative investment vehicle
       </h1>
-<br>
 
-</br>
       <p className="p">
         Kant Enterprises believes that AI and renewables will be the dominant driver of 
         global market returns over the next decade. The landscape is expansive and diverse, encompassing companies in the 
@@ -14,9 +12,8 @@ export default function Home() {
            The firm’s investment activities are organized across two primary thematic verticals:
             Kant Technologies and Kant Energy
       </p>
-      <br>
-      
-      </br>
+<hr className="rule" />
+
 <h1 className="h1">
   Kant Technologies
 </h1>
@@ -29,13 +26,13 @@ export default function Home() {
           from the global growth and broad adoption of AI
       </p>
 
-      <br>
-      
-      </br>
+    <hr className="rule" />
+
 
       <h1 className="h1">
   Kant Energy
 </h1>
+
 
       <p className="p">
         Kant Energy focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
