@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Kant Enterprises",
@@ -14,9 +15,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="wrap">
           <header className="header">
             <nav className="nav">
-              <div className="brand">
-                <Link href="/">Kant Enterprises</Link>
-              </div>
+             <div className="brand">
+  <Link href="/" className="brandWrap" aria-label="Kant Enterprises">
+    <Image
+      src="/logo.png"
+      alt="Kant Enterprises logo"
+      width={40}
+      height={40}
+      priority
+    />
+    <span className="brandText">Kant Enterprises</span>
+  </Link>
+</div>
+
               <div className="links">
                 <Link href="/about">About</Link>
                 <Link href="/contact">Contact</Link>

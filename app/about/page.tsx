@@ -18,7 +18,7 @@ export default function About() {
         KE was founded by Kant Tanyawong in 2025. 
         Mr. Tanyawong a background in engineering, statistics and finance
         He previously worked for MFC Asset Management ($15bn+ AUM) before launching Kant Enterprises.
-        His BEng(Hons) project was on neural networks and solar microgrid systems
+        His BEng(Hons) projects was on neural networks and solar microgrid systems
       </p>
       </p>
     </>

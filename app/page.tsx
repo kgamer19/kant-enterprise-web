@@ -1,9 +1,11 @@
 export default function Home() {
   return (
     <>
+   
       <h1 className="h1">
     Kant Enterprises, SEA multi-strategy alternative investment vehicle
       </h1>
+
 
       <p className="p">
         Kant Enterprises believes that AI and renewables will be the dominant driver of 
@@ -14,9 +16,11 @@ export default function Home() {
       </p>
 <hr className="rule" />
 
+  <div className="hero">
 <h1 className="h1">
   Kant Technologies
 </h1>
+</div>
       <p className="p">
         Kant Technologies focuses on seed-stage and growth-stage investments. we take a 
         rigorous approach to AI
@@ -28,10 +32,11 @@ export default function Home() {
 
     <hr className="rule" />
 
-
+  <div className="hero">
       <h1 className="h1">
   Kant Energy
 </h1>
+</div>
 
 
       <p className="p">

@@ -3,10 +3,19 @@
 
 :root {
   --bg: #ffffff;
-  --text: #0e0f11;
-  --muted: #5f6168;
-  --rule: #e6e7eb;
+
+  /* Brand */
+  --brand: #1f3a32;        /* deep green-navy */
+  --brand-soft: #2a4a40;   /* hover / accent */
+
+  /* Text */
+  --text: #0f1412;         /* near-black graphite */
+  --muted: #5b615e;
+
+  /* Lines */
+  --rule: #e2e6e4;
 }
+
 
 
 * { box-sizing: border-box; }
@@ -45,37 +54,43 @@ a:hover { text-decoration: underline; }
 
 .brand a {
   font-weight: 600;
+  color: var(--brand);
   letter-spacing: 0.02em;
 }
+
 
 
 .links {
   display: flex;
   gap: 20px;
-  color: #0757f6;
-  font-size: 13px;
-  letter-spacing: 0.04em;
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: var(--muted);
 }
+
 
 .main { padding: 10px 0 22px; }
 
 .h1 {
   font-family: "Libre Baskerville", Georgia, serif;
-  font-size: clamp(28px, 3.2vw, 44px);
-  line-height: 1.2;
-  letter-spacing: -0.3px;
-  margin: 0 0 16px;
+  font-size: clamp(30px, 3vw, 42px);
+  line-height: 1.25;
+  letter-spacing: -0.25px;
+  margin: 0 0 18px;
+  color: var(--text);
 }
+
 
 
 .p {
-  margin: 0 0 14px;
-  max-width: 72ch;
-  color: #1f2024;
-  line-height: 1.65;
+  margin: 0 0 16px;
+  max-width: 70ch;
+  color: var(--text);
+  line-height: 1.7;
   font-size: 16px;
 }
+
 
 
 .footer {
@@ -110,4 +125,34 @@ a:hover { text-decoration: underline; }
   border: none;
   border-top: 1px solid #ededf1;
   margin: 28px 0;
+}
+.hero {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 28px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  width: 1px;
+  height: calc(100% - 0.35em);
+  background: var(--brand);
+}
+
+
+.brandWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brandText {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand);
 }
