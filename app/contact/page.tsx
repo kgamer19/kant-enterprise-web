@@ -69,12 +69,12 @@ export default function Contact() {
             >
               <label className="field">
                 <span className="label">Name</span>
-                <input className="input" name="name" placeholder="Lorem Ipsum" />
+                <input className="input" name="name" placeholder="" />
               </label>
 
               <label className="field">
                 <span className="label">Organization</span>
-                <input className="input" name="org" placeholder="Dolor Sit" />
+                <input className="input" name="org" placeholder="" />
               </label>
 
               <label className="field">
@@ -93,7 +93,7 @@ export default function Contact() {
                   className="textarea"
                   name="message"
                   rows={6}
-                  placeholder="Lorem ipsum dolor sit amet…"
+                  placeholder=""
                 />
               </label>
 
