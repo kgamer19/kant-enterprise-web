@@ -8,9 +8,9 @@ export default function Home() {
 
 
       <p className="p">
-        Kant Enterprises believes that AI and renewables will define 
-         alpha over the next decade.
-         We stand the intersection of computation, energy systems, and asset allocation, where academic culture meets market realities.
+        Kant Enterprises believes that AI and renewables will be the dominant
+         driver of global market returns over the next decade. The landscape is 
+         expansive and diverse, encompassing companies in the technology and energy sectors.
       </p>
 <hr className="rule" />
 
