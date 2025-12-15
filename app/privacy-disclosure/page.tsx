@@ -4,7 +4,7 @@ export default function PrivacyDisclosure() {
       <h1 className="h1">Privacy Disclosure</h1>
       <p className="p">
         Privacy Disclosure
-Last Updated: March 21, 2025
+Last Updated: December 20, 2025
 
 Kant Enterprises Co., Ltd. ("KE") and its affiliates (collectively, "KE", "we", "us", or "our") 
 do not collect any personal information through this website (the "Site"). 

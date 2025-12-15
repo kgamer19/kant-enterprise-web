@@ -2,20 +2,25 @@ export default function Home() {
   return (
     <>
    
-      <h1 className="h1">
-    Kant Enterprises, SEA multi-strategy alternative investment vehicle
-      </h1>
+   <h1 className="h1">
+  Kant <span className="h2">Enterprises </span>
+  <span className="h1text">
+    , SEA multi-strategy alternative investment vehicle
+  </span>
+</h1>
+
 
 
       <p className="p">
-       Kant Enterprises invest only in what we know best, where academia and capital allocation meets
+      
+  Kant Enterprises 'invest' only in what we our experts know 'best'. Academic approaches to solve capital allocation puzzle for
          artificial intelligence and renewable energy.
       </p>
 <hr className="rule" />
 
   <div className="hero">
-<h1 className="h1">
-  Kant Technologies
+<h1 className="h2">
+  <span className="h1">Kant </span> Technologies
 </h1>
 </div>
       <p className="p">
@@ -29,7 +34,7 @@ export default function Home() {
 
   <div className="hero">
       <h1 className="h1">
-  Kant Energies
+  Kant <span className="h2">Energies </span> 
 </h1>
 </div>
 
