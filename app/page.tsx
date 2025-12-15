@@ -8,9 +8,8 @@ export default function Home() {
 
 
       <p className="p">
-       Kant Enterprises believes that AI and renewables will define global absolute returns over
-        the next decade. We are the intersection of computation, energy systems,
-         and asset allocation
+       Kant Enterprises invest only in what we know best, where academia and capital allocation meets
+         artificial intelligence and renewable energy.
       </p>
 <hr className="rule" />
 
@@ -20,10 +19,10 @@ export default function Home() {
 </h1>
 </div>
       <p className="p">
-        Kant Technologies focuses on seed-stage and growth-stage investments. We take a 
+        Kant Technologies focuses on seed-stage and growth-stage AI startups. We take a 
         rigorous approach to AI
          analysis, pairing a macro view of the AI industry, deep 
-         understanding of the underlying AI technology, and individual company.
+         understanding of the underlying AI technology, and the individual company.
       </p>
 
     <hr className="rule" />
@@ -36,8 +35,8 @@ export default function Home() {
 
 
       <p className="p">
-        Kant Energy focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
-         Our domain expertise demonstrates renewables a core component of global AI adoption and energy transition.
+        Kant Energies focuses on equity and credit investments in renewable energy across solar, hydro, biomass, and wind.
+         Our domain expertise determine renewables are a core component of global energy transition and AI adoption.
       </p>
     </>
   );
